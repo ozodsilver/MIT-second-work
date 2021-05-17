@@ -1,0 +1,12 @@
+.about-imgs {
+  position: relative;
+}
+.about-imgs img {
+  width: 100%;
+  position: relative;
+  display: block;
+}
+.about-imgs .img-item {
+  position: relative;
+  background: red;
+}
