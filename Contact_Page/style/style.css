@@ -88,3 +88,61 @@ a {
 .menuButton {
   display: none;
 }
+
+/* Futter style */
+
+#EBS_topMenu #futter {
+  width: 100%;
+  background-color: black;
+  color: #fff;
+}
+#EBS_topMenu #futter .futterBox {
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-between;
+}
+#EBS_topMenu #futter .futterBox .futter_menuIcon {
+  text-align: right;
+}
+#EBS_topMenu #futter .futter_text p {
+  font-size: 15px;
+}
+#EBS_topMenu #futter .futter_text span a {
+  color: #fff;
+  font-size: 14px;
+}
+#EBS_topMenu #futter .futter_text span a:hover {
+  text-decoration: solid;
+}
+#futter .futter_menuIcon .menuFutter ul li a {
+  color: #fff;
+  font-weight: 100;
+}
+#futter .futter_menuIcon .menuFutter ul li a {
+  padding: 0 20px;
+  border-left: 1px solid #fff;
+}
+#futter .futter_menuIcon .menuFutter ul li a:hover {
+  color: #43857a;
+  transition: color 0.4s;
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -ms-transition: color 0.4s;
+  -o-transition: color 0.4s;
+}
+#futter .futter_menuIcon .menuFutter ul li:nth-child(1) a {
+  border: none;
+}
+#futter .futter_menuIcon .iconsFutter ul li a {
+  color: #fff;
+  font-size: 18px;
+  padding: 0 12px;
+}
+#futter .futter_menuIcon .iconsFutter ul li a:hover {
+  color: #43857a;
+  transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+}
