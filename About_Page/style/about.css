@@ -58,3 +58,8 @@
   -ms-transform: scaleY(1);
   -o-transform: scaleY(1);
 }
+
+.about-info {
+  position: relative;
+  height: auto;
+}
