@@ -47,4 +47,15 @@
   #check:checked ~ .menuButton {
     background-color: #fff;
   }
+  #futter .futter_menuIcon .menuFutter {
+    display: none;
+  }
+  #EBS_topMenu #futter .futterBox {
+    flex-direction: column-reverse;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #EBS_topMenu #futter .futterBox .futter_menuIcon {
+    text-align: left;
+  }
 }
