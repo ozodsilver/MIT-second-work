@@ -17,8 +17,7 @@
   cursor: pointer;
 }
 .about-imgs .col-lg-3,
-.about-imgs .col-md-6,
-.about-imgs .col-sm-12 {
+.about-imgs .col-md-6 {
   padding: 0;
 }
 .about-imgs .img-item:hover img {
@@ -86,4 +85,10 @@
   font-size: 14px;
   font-style: italic;
   color: rgb(55, 55, 55);
+}
+
+@media (max-width: 540px) {
+  .about-imgs .img-item {
+    margin: 0 10px;
+  }
 }
