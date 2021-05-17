@@ -63,3 +63,19 @@
   position: relative;
   height: auto;
 }
+.about-info .container {
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+}
+
+.about-info h2 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: rgb(5, 5, 5);
+}
+
+.about-info p {
+  font-size: 14px;
+  font-style: italic;
+  color: rgb(55, 55, 55);
+}
