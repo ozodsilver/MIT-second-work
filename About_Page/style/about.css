@@ -92,3 +92,9 @@
     margin: 0 10px;
   }
 }
+
+@media (max-width: 720px) {
+  .about-info h2::before {
+    width: 10%;
+  }
+}
