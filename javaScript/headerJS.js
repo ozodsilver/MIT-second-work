@@ -17,3 +17,26 @@ btnClick.addEventListener("click", () => {
     label.innerHTML = '<i class="fas fa-times"></i>';
   }
 });
+
+let btnPhone = document.querySelector("#Phone .phoneIcon");
+let context = document.querySelector(".Phone_title");
+let isT = { is: true };
+btnPhone.addEventListener("click", () => {
+  if (isT.is) {
+    context.style.cssText = `
+    transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -o-transform: scaleX(1);`;
+    isT.is = false;
+  } else {
+    isT.is = true;
+    context.style.cssText = `
+    transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);`;
+  }
+});

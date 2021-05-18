@@ -1,3 +1,9 @@
+@media (max-width: 768px) {
+  #header .listItems li a {
+    padding: 0 8px;
+    font-size: 14px;
+  }
+}
 @media (max-width: 535px) {
   #logo_content .logo_block {
     width: 100%;
@@ -9,9 +15,9 @@
 @media (max-width: 495px) {
   .menuButton {
     z-index: 17;
-    position: fixed;
+    position: absolute;
     left: 80%;
-    top: 35px;
+    top: 40px;
     width: 50px;
     height: 50px;
     display: flex;
@@ -38,7 +44,7 @@
     justify-content: center;
   }
   #header .listItems li {
-    font-size: 24px;
+    font-size: 16px;
     padding: 20px 0;
   }
   #header .listItems li a {
