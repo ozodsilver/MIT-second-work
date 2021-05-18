@@ -87,6 +87,84 @@
   color: rgb(55, 55, 55);
 }
 
+#oCompan {
+  padding: 20px 0;
+}
+#oCompan .bigimg {
+  position: relative;
+  box-shadow: 0 0 0.5em 0 #ccc;
+}
+#oCompan .bigimg .bannerText {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: rgba(238, 238, 238, 0.623);
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+#oCompan .bigimg .bannerText h1 {
+  font-size: 2.5em;
+  color: #000;
+  font-weight: bold;
+}
+#oCompan .bigimg .bannerText p {
+  color: #000;
+  font-weight: 600;
+  font-style: italic;
+  animation-name: colr;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes colr {
+  0% {
+    color: #000;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: #000;
+  }
+}
+#oCompan .bigimg img {
+  width: 100%;
+}
+
+#oCompan .titleCOM {
+  margin: 25px 0;
+  /* border: 1px solid black; */
+}
+#oCompan .titleCOM .COMbox h1 {
+  position: relative;
+  font-weight: 600;
+  font-size: 1.8em;
+  padding: 5px 0;
+  display: inline-block;
+}
+#oCompan .titleCOM .COMbox h1::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  height: 2px;
+  background-color: #333;
+}
+#oCompan .titleCOM .COMbox .COM_title {
+  width: 90%;
+  padding: 15px;
+  /* background-color: #eee; */
+  box-shadow: 0 0 0.5em 0 #ccc;
+  color: black;
+  margin: 10px auto;
+}
+
+/* responsev */
 @media (max-width: 540px) {
   .about-imgs .img-item {
     margin: 0 10px;
