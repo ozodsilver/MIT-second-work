@@ -1,0 +1,71 @@
+#home {
+  padding: 15px 0;
+}
+#home .h1_title {
+  padding: 15px 0;
+  text-align: center;
+}
+#home .h1_title h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#home .h1_title span {
+  font-weight: 600;
+  color: #666;
+}
+#home .text_title {
+  padding: 15px 0;
+  display: flex;
+  font-size: 15px;
+  justify-content: space-around;
+}
+#home .text_title .text {
+  padding: 15px;
+  background-color: #eee;
+}
+#home .text_title .text ul li {
+  position: relative;
+  display: block;
+  color: black;
+}
+#home .text_title .text ul li i {
+  padding: 0 5px;
+}
+#home .text_title .text ul li:hover {
+  text-decoration: underline;
+}
+#home .laws_title .laws_h1 {
+  padding: 25px 0;
+}
+#home .laws_title .laws_h1 h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+#home .laws_texts {
+  padding: 20px;
+  background-color: #eee;
+}
+#home .laws_title .laws_texts ul li {
+  position: relative;
+  display: block;
+  color: black;
+}
+#home .laws_texts ul li i {
+  padding: 0 5px;
+}
+#home .laws_texts ul li:hover {
+  text-decoration: underline;
+}
+
+/* responsev */
+
+@media (max-width: 768px) {
+  #home .text_title {
+    display: flex;
+    flex-direction: column;
+  }
+  #home .text_title .text {
+    margin-top: 25px;
+  }
+}
