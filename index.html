@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./style/responsevStyle.css" />
     <link rel="stylesheet" href="./style/about.css" />
@@ -22,7 +23,7 @@
         <header id="header">
             <div class="container topMenu">
                 <ul class="listItems">
-                    <li><a href="#">О КОМПАНИИ</a></li>
+                    <li><a style="color: #43857a;" href="#">О КОМПАНИИ</a></li>
                     <li><a href="../Servis_Page/servisPage.html">УСЛУГИ и ЦЕНЫ</a></li>
                     <li><a href="../Home_Page/homePage.html">НЕОБХОДИМАЯ ИНФОРМАЦИЯ</a></li>
                     <li><a href="../Clentis_Page/clentisPage.html">КЛИЕНТЫ</a></li>
@@ -38,11 +39,11 @@
         <section id="logo_content">
             <div class="container logo_block">
                 <div class="logoImg">
-                    <a href="#">LOGO</a>
+                    <a href="#"><img src="./img/Logo.png" alt=""></a>
                 </div>
                 <div class="call_box">
                     <div class="call_title">
-                        <p>CALL US TODAY FOR A CONSULTATION</p>
+                        <p>ПОЗВОНИТЕ НАМ СЕГОДНЯ ДЛЯ КОНСУЛЬТАЦИИ</p>
                         <a href="tel:+998998981220">(+99899)
                             898-12-20</a><br>
                         <a href="tel:+998919267776">(+99891) 926-77-76</a>
@@ -57,7 +58,7 @@
 
         <!-- Home, About, clicntes Pages -->
 
-        <div id="oCompan">
+        <div data-aos-delay="300" data-aos="fade-up" id="oCompan">
             <div class="container">
                 <div class="bigimg">
                     <img src="./img/bannerIMG.jpg" alt="">
@@ -69,7 +70,7 @@
                     </div>
                 </div>
                 <div class="titleCOM">
-                    <div class="COMbox">
+                    <div data-aos-delay="300" data-aos="fade-up" class="COMbox">
                         <h1>О компании</h1>
                         <div class="COM_title">
                             <p>
@@ -100,7 +101,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="COMbox">
+                    <div data-aos-delay="400" data-aos="fade-up" class="COMbox">
                         <h1>Сотрудники</h1>
                         <div class="COM_title">
                             <p>
@@ -111,7 +112,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="COMbox">
+                    <div data-aos-delay="500" data-aos="fade-up" class="COMbox">
                         <h1>Миссия</h1>
                         <div class="COM_title">
                             <p>
@@ -134,25 +135,25 @@
         <div class="about-imgs mt-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div data-aos-delay="300" data-aos="fade-right" class="col-lg-3 col-md-6 col-sm-12">
                         <div class="img-item">
                             <img src="./img/img-1.webp" alt="img-1" />
                             <span>Vladimir Lesin</span>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div data-aos-delay="400" data-aos="fade-down" class="col-lg-3 col-md-6 col-sm-12">
                         <div class="img-item">
                             <img src="./img/img-2.webp" alt="img-2" />
                             <span>Aliya Karimova</span>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div data-aos-delay="400" data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-12">
                         <div class="img-item">
                             <img src="./img/img-3.webp" alt="img-3" />
                             <span>Alena Petrova</span>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div data-aos-delay="300" data-aos="fade-left" class="col-lg-3 col-md-6 col-sm-12">
                         <div class="img-item">
                             <img src="./img/img-4.webp" alt="img-4" />
                             <span>Igor Sorin</span>
@@ -162,7 +163,7 @@
             </div>
         </div>
 
-        <div class="about-info mb-3 mt-5">
+        <div data-aos-delay="300" data-aos="fade-up" class="about-info mb-3 mt-5">
             <div class="container py-5 px-4">
                 <div class="about-info-1 pb-5">
                     <h2 class="about-title-1 pb-4">Почему именно мы</h2>
@@ -206,7 +207,7 @@
                 <div class="futter_menuIcon">
                     <div class="menuFutter">
                         <ul>
-                            <li><a href="#">О КОМПАНИИ</a></li>
+                            <li><a style="color: #43857a;" href="#">О КОМПАНИИ</a></li>
                             <li><a href="../Servis_Page/servisPage.html">УСЛУГИ и ЦЕНЫ</a></li>
                             <li><a href="../Home_Page/homePage.html">НЕОБХОДИМАЯ ИНФОРМАЦИЯ</a></li>
                             <li><a href="../Clentis_Page/clentisPage.html">КЛИЕНТЫ</a></li>
@@ -232,6 +233,11 @@
         </div>
     </section>
 
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="./javaScript/headerJS.js"></script>
 </body>
 

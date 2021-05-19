@@ -1,8 +1,8 @@
 #clint-page {
   position: relative;
   opacity: 0;
-  animation: anim 2s 1s forwards;
-  -webkit-animation: anim 2s 1s forwards;
+  animation: anim 1s 0.5s forwards;
+  -webkit-animation: anim 1s 0.5s forwards;
 }
 @keyframes anim {
   100% {
@@ -39,7 +39,7 @@
     width: 10%;
   }
 }
-#clint-page.col-md-3,
+#clint-page.col-md-4,
 #clint-page .col-sm-12 {
   padding: 0;
 }
