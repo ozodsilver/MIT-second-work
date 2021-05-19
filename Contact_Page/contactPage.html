@@ -28,7 +28,7 @@
             <a href="../Home_Page/homePage.html">НЕОБХОДИМАЯ ИНФОРМАЦИЯ</a>
           </li>
           <li><a href="../Clentis_Page/clentisPage.html">КЛИЕНТЫ</a></li>
-          <li><a style="color: #43857a;" href="#">КОНТАКТЫ</a></li>
+          <li><a style="color: #FF6700;" href="#">КОНТАКТЫ</a></li>
         </ul>
       </div>
     </header>
@@ -40,7 +40,7 @@
     <section id="logo_content">
       <div class="container logo_block">
         <div class="logoImg">
-          <a href="#">LOGO</a>
+          <a href="#"><img src="../img/Logo.svg" alt=""></a>
         </div>
         <div class="call_box">
           <div class="call_title">
@@ -143,7 +143,7 @@
                 <a href="../Home_Page/homePage.html">НЕОБХОДИМАЯ ИНФОРМАЦИЯ</a>
               </li>
               <li><a href="../Clentis_Page/clentisPage.html">КЛИЕНТЫ</a></li>
-              <li><a style="color: #43857a;" href="#">КОНТАКТЫ</a></li>
+              <li><a style="color: #FF6700;" href="#">КОНТАКТЫ</a></li>
             </ul>
           </div>
           <div class="iconsFutter">
@@ -169,6 +169,7 @@
   <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 
   <script>
+    document.querySelector('form').onsubmit = e => e.preventDefault();
     ymaps.ready(init);
 
     function init() {

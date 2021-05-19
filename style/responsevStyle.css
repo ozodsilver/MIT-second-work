@@ -65,4 +65,7 @@
   #EBS_topMenu #futter .futterBox .futter_menuIcon {
     text-align: left;
   }
+  #logo_content .logo_block .logoImg {
+    width: 100px;
+  }
 }
