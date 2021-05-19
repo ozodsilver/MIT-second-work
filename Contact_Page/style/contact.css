@@ -5,8 +5,21 @@
 
 #contant-page {
   position: relative;
+  opacity: 0;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  animation: anima 1s 1s forwards;
+  -webkit-animation: anima 1s 1s forwards;
 }
 
+@keyframes anima {
+  100% {
+    opacity: 1;
+  }
+}
 #contant-page p {
   font-size: 14px;
   margin: 0;
