@@ -1,0 +1,82 @@
+#clint-page {
+  position: relative;
+}
+
+#clint-page p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: rgb(55, 55, 55);
+  font-style: italic;
+}
+#clint-page h2,
+#clint-page h3 {
+  font-size: 25px;
+  color: rgb(5, 5, 5);
+  position: relative;
+  font-weight: 700;
+}
+
+#clint-page h2::before {
+  content: "";
+  width: 8%;
+  border: 1px solid rgb(5, 5, 5);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@media (max-width: 720px) {
+  #clint-page h2::before {
+    width: 10%;
+  }
+}
+#clint-page.col-md-3,
+#clint-page .col-sm-12 {
+  padding: 0;
+}
+#clint-page .clint-item img {
+  width: 100%;
+}
+#clint-page .clint-item {
+  border: 1px solid #ccc;
+}
+
+#clint-page .info {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+#clint-page h3,
+#clint-page small {
+  margin: 0;
+  padding: 0;
+}
+
+/*  */
+#clint-page .clint-logo-2,
+#clint-page .clint-logo-3 {
+  transition: 1s ease;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+  opacity: 0;
+  transform: scaleY(0);
+  -webkit-transform: scaleY(0);
+  -moz-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  -o-transform: scaleY(0);
+  transform-origin: top;
+  height: 0;
+}
+
+#clint-page .btn {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: rgb(55, 55, 55);
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
+}
