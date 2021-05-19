@@ -62,7 +62,7 @@ a {
 #logo_content {
   background-color: #f9f9f9;
   width: 100%;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 #logo_content .logo_block {
   width: 100%;
@@ -90,7 +90,6 @@ a {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  /* text-align: right; */
 }
 #logo_content .logo_block .call_box .langFlag a img {
   border: 1px solid black;
@@ -188,12 +187,47 @@ a {
   font-size: 22px;
   background-color: #43857a;
   color: #fff;
+  animation-name: shark;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 7s;
   cursor: pointer;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+@keyframes shark {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+  40% {
+    transform: scale(1.2) rotate(-30deg);
+    -webkit-transform: scale(1.2) rotate(-30deg);
+    -moz-transform: scale(1.2) rotate(-30deg);
+    -ms-transform: scale(1.2) rotate(-30deg);
+    -o-transform: scale(1.2) rotate(-30deg);
+  }
+  60% {
+    transform: scale(1.2) rotate(15deg);
+    -webkit-transform: scale(1.2) rotate(15deg);
+    -moz-transform: scale(1.2) rotate(15deg);
+    -ms-transform: scale(1.2) rotate(15deg);
+    -o-transform: scale(1.2) rotate(15deg);
+  }
+  80% {
+    transform: scale(1.2) rotate(-15deg);
+    -webkit-transform: scale(1.2) rotate(-15deg);
+    -moz-transform: scale(1.2) rotate(-15deg);
+    -ms-transform: scale(1.2) rotate(-15deg);
+    -o-transform: scale(1.2) rotate(-15deg);
+  }
 }
 #Phone .phoneIcon:active {
   background-color: #265049;

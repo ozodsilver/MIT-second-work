@@ -137,7 +137,6 @@
 
 #oCompan .titleCOM {
   margin: 25px 0;
-  /* border: 1px solid black; */
 }
 #oCompan .titleCOM .COMbox h1 {
   position: relative;
@@ -157,11 +156,26 @@
 }
 #oCompan .titleCOM .COMbox .COM_title {
   width: 90%;
-  padding: 15px;
-  /* background-color: #eee; */
+  padding: 25px;
   box-shadow: 0 0 0.5em 0 #ccc;
   color: black;
   margin: 10px auto;
+  transition: 0.45s;
+  -webkit-transition: 0.45s;
+  -moz-transition: 0.45s;
+  -ms-transition: 0.45s;
+  -o-transition: 0.45s;
+}
+#oCompan .titleCOM .COMbox .COM_title:hover {
+  box-shadow: none;
+  transition: 0.45s;
+  -webkit-transition: 0.45s;
+  -moz-transition: 0.45s;
+  -ms-transition: 0.45s;
+  -o-transition: 0.45s;
+}
+#oCompan .titleCOM .COMbox .COM_title p span {
+  margin-left: 25px;
 }
 
 /* responsev */
