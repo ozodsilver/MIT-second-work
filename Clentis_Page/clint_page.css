@@ -1,5 +1,13 @@
 #clint-page {
   position: relative;
+  opacity: 0;
+  animation: anim 2s 1s forwards;
+  -webkit-animation: anim 2s 1s forwards;
+}
+@keyframes anim {
+  100% {
+    opacity: 1;
+  }
 }
 
 #clint-page p {

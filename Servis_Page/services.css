@@ -1,5 +1,12 @@
 #services-page {
   position: relative;
+  animation: anim 2s 1s forwards;
+  -webkit-animation: anim 2s 1s forwards;
+}
+@keyframes anim {
+  100% {
+    opacity: 1;
+  }
 }
 
 #services-page h2 {
