@@ -187,7 +187,7 @@
   align-items: center;
   justify-content: space-between;
 }
-#oCompan .COM_title img {
+#oCompan .COM_title .kompan img {
   width: 100%;
   display: none;
 }
