@@ -3,6 +3,9 @@
     padding: 0 8px;
     font-size: 14px;
   }
+  #header .context {
+    width: 700px;
+  }
 }
 @media (max-width: 535px) {
   #logo_content .logo_block {
@@ -67,5 +70,12 @@
   }
   #logo_content .logo_block .logoImg {
     width: 100px;
+  }
+  #header .context {
+    left: 10%;
+    width: 300px;
+  }
+  #header .context .contextImg {
+    display: none;
   }
 }
