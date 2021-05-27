@@ -71,4 +71,14 @@
   #home .text_title .text {
     margin-top: 25px;
   }
+
+
+  .rasm1{
+    height: 230px !important;
+    margin-bottom: 100px;
+  }
+
+  .rasm2{
+    display: none !important;
+  }
 }
