@@ -21,6 +21,7 @@ ul {
   list-style: none;
 }
 ul li {
+  position: relative;
   font-size: 14px;
   display: inline-block;
 }
@@ -50,6 +51,9 @@ a {
   -moz-transition: color 0.35s;
   -ms-transition: color 0.35s;
   -o-transition: color 0.35s;
+}
+#header .listItems li {
+  padding: 10px 0;
 }
 #header .listItems li a:hover {
   color: #ff6700;
@@ -268,4 +272,81 @@ a {
 #Phone .Phone_title a:hover {
   background-color: #ccc;
   color: black;
+}
+
+/* context menu */
+
+#header .listItems li:hover .context {
+  display: flex;
+}
+
+#header .context {
+  position: absolute;
+  top: 38px;
+  left: -280%;
+  background-color: #fff;
+  z-index: 10;
+  display: none;
+  width: 1200px;
+  justify-content: center;
+  padding: 15px 50px;
+  transition: 0.5s;
+  box-shadow: 0 0 1em 0 #888;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#header .context:hover {
+  display: flex;
+}
+#header .context ul {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+#header .context a {
+  position: relative;
+  font-size: 18px;
+  line-height: 20px;
+  color: black;
+}
+#header .context a::before {
+  position: absolute;
+  content: "";
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #ff6700;
+  transition: width 0.45s;
+  -webkit-transition: width 0.45s;
+  -moz-transition: width 0.45s;
+  -ms-transition: width 0.45s;
+  -o-transition: width 0.45s;
+}
+#header .context a:hover::before {
+  width: 100%;
+  transition: width 0.45s;
+  -webkit-transition: width 0.45s;
+  -moz-transition: width 0.45s;
+  -ms-transition: width 0.45s;
+  -o-transition: width 0.45s;
+}
+#header .context .contextImg {
+  padding-left: 10px;
+  position: relative;
+  width: 350px;
+}
+#header .context .contextImg::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #ccc;
+}
+#header .context .contextImg img {
+  width: 100%;
 }
