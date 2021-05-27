@@ -1,31 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap");
 #services-page {
   position: relative;
-  animation: anim 2s 1s forwards;
-  -webkit-animation: anim 2s 1s forwards;
 }
-
-
-@keyframes anim {
-  100% {
-    opacity: 1;
-  }
+#services-page .item-1 img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
 }
-
-#services-page h2 {
-  font-size: 1.2rem;
-  color: rgb(5, 5, 5);
+#services-page .item-2 h2 {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  color: #36414d;
 }
-
-#services-page ul li {
-  position: relative;
-  font-size: 15px;
-  color: rgb(55, 55, 55);
-  padding-left: 1rem;
+#services-page .item-2 {
+  padding: 16px 0;
+}
+#services-page .item-2 li {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #475766;
   display: block;
 }
-
-#services-page .icon {
-  font-size: 12px;
-  color: rgb(5, 5, 5);
-  padding-right: 4px;
+#services-page .ul-c-1 {
+  border-left: 3px dashed #475766;
+  margin: 10px 0;
+  position: relative;
+  padding: 10px;
+}
+#services-page .ul-c-1::before {
+  content: "";
+  width: 20px;
+  border-bottom: 3px solid #475766;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#services-page .ul-c-2 {
+  border-left: 3px dashed #475766;
+  margin: 10px 0;
+  position: relative;
+  padding: 10px;
+}
+#services-page .ul-c-2::before {
+  content: "";
+  width: 20px;
+  border-bottom: 3px solid #475766;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
