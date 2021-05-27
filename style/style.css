@@ -21,7 +21,6 @@ ul {
   list-style: none;
 }
 ul li {
-  position: relative;
   font-size: 14px;
   display: inline-block;
 }
