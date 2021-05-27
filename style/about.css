@@ -177,11 +177,49 @@
 #oCompan .titleCOM .COMbox .COM_title p span {
   margin-left: 25px;
 }
-
+#oCompan .COM_title .imgOcom img {
+  margin: 20px 0;
+  width: 100%;
+  display: block;
+}
+#oCompan #users {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#oCompan .COM_title img {
+  width: 100%;
+  display: none;
+}
+#oCompan #users img {
+  width: 30%;
+}
+#oCompan .missiya img {
+  height: 180px;
+  margin-right: 20px;
+}
 /* responsev */
 @media (max-width: 540px) {
   .about-imgs .img-item {
     margin: 0 10px;
+  }
+  #oCompan #users {
+    flex-direction: column;
+  }
+  #oCompan #users img {
+    width: 90%;
+  }
+  #oCompan .missiya img {
+    height: 10%;
+    margin-bottom: 20px;
+  }
+  #oCompan .COM_title img {
+    width: 100%;
+    display: block;
+  }
+  #oCompan .COM_title .imgOcom img {
+    margin: 20px 0;
+    width: 100%;
   }
 }
 
