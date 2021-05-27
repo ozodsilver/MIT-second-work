@@ -56,3 +56,8 @@
 #contant-page .col-md-6 {
   padding: 0;
 }
+
+.img-mony {
+  width: 100px;
+  object-fit: cover;
+}
