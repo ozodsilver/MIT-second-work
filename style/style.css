@@ -150,7 +150,7 @@ a {
   border-left: 1px solid #fff;
 }
 #futter .futter_menuIcon .menuFutter ul li a:hover {
-  color: #43857a;
+  color: #ff6700;
   transition: color 0.4s;
   -webkit-transition: color 0.4s;
   -moz-transition: color 0.4s;
