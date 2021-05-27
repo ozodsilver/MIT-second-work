@@ -39,10 +39,12 @@
   padding: 25px 0;
 }
 #home .laws_title .laws_h1 h1 {
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 1.8em;
+  font-weight: 900;
   text-align: center;
+  color: rgb(71, 66, 66);
 }
+
 #home .laws_texts {
   padding: 20px;
   background-color: #eee;
