@@ -6,16 +6,17 @@
   text-align: center;
 }
 #home .h1_title h1 {
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 1.8em;
+  font-weight: 900;
+  color: rgb(70, 64, 64);
 }
 #home .h1_title span {
-  font-weight: 600;
+  font-weight: 900;
   color: #666;
 }
 #home .text_title {
   padding: 15px 0;
-  display: flex;
+
   font-size: 15px;
   justify-content: space-around;
 }

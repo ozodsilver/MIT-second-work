@@ -1,265 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/responsevStyle.css">
-    <link rel="stylesheet" href="./HomeStyle/homeStyle.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/responsevStyle.css" />
+    <link rel="stylesheet" href="./HomeStyle/homeStyle.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <section id="EBS_topMenu">
-        <input type="checkbox" id="check" style="display: none;">
-        <header id="header">
-            <div class="container topMenu">
-                <ul class="listItems">
-                    <li><a href="../index.html">О КОМПАНИИ</a></li>
-                    <li><a href="../Servis_Page/servisPage.html">УСЛУГИ и ЦЕНЫ</a></li>
-                    <li><a style="color: #FF6700;" href="#">НЕОБХОДИМАЯ ИНФОРМАЦИЯ</a></li>
-                    <li><a href="../Clentis_Page/clentisPage.html">КЛИЕНТЫ</a></li>
-                    <li><a href="../Contact_Page/contactPage.html">КОНТАКТЫ</a></li>
-                </ul>
-            </div>
-        </header>
-        <div class="menuButton">
-            <label for="check">
-                <i class="fas fa-bars"></i>
-            </label>
+      <input type="checkbox" id="check" style="display: none" />
+      <header id="header">
+        <div class="container topMenu">
+          <ul class="listItems">
+            <li><a href="../index.html">О КОМПАНИИ</a></li>
+            <li><a href="../Servis_Page/servisPage.html">УСЛУГИ и ЦЕНЫ</a></li>
+            <li>
+              <a style="color: #ff6700" href="#">НЕОБХОДИМАЯ ИНФОРМАЦИЯ</a>
+            </li>
+            <li><a href="../Clentis_Page/clentisPage.html">КЛИЕНТЫ</a></li>
+            <li><a href="../Contact_Page/contactPage.html">КОНТАКТЫ</a></li>
+          </ul>
         </div>
-        <section id="logo_content">
-            <div class="container logo_block">
-                <div class="logoImg">
-                    <a href="../index.html"><img src="../img/Logo.svg" alt=""></a>
-                </div>
-                <div class="call_box">
-                    <div class="call_title">
-                        <p>ПОЗВОНИТЕ НАМ СЕГОДНЯ ДЛЯ КОНСУЛЬТАЦИИ</p>
-                        <a href="tel:+998998981220">(+99899)
-                            898-12-20</a><br>
-                        <a href="tel:+998919267776">(+99891) 926-77-76</a>
-                    </div>
-                    <div class="langFlag">
-                        <a href="#"><img src="../img_flag/ru.svg" alt=""></a>
-                        <a href="en"><img src="../img_flag/us.svg" alt=""></a>
-                    </div>
-                </div>
+      </header>
+      <div class="menuButton">
+        <label for="check">
+          <i class="fas fa-bars"></i>
+        </label>
+      </div>
+      <section id="logo_content">
+        <div class="container logo_block">
+          <div class="logoImg">
+            <a href="../index.html"><img src="../img/Logo.svg" alt="" /></a>
+          </div>
+          <div class="call_box">
+            <div class="call_title">
+              <p>ПОЗВОНИТЕ НАМ СЕГОДНЯ ДЛЯ КОНСУЛЬТАЦИИ</p>
+              <a href="tel:+998998981220">(+99899) 898-12-20</a><br />
+              <a href="tel:+998919267776">(+99891) 926-77-76</a>
             </div>
-        </section>
-
-        <!-- infarmatsiya -->
-
-        <div id="home">
-            <div class="container">
-                <div class="h1_title">
-                    <h1 data-aos-delay="150" data-aos="fade-in">ПОЛЕЗНАЯ ИНФОРМАЦИЯ</h1>
-                    <span data-aos-delay="300" data-aos="fade-in">Образцы документов</span>
-                </div>
-                <div class="text_title">
-                    <div data-aos-delay="300" data-aos="fade-right" class="text">
-                        <ul>
-                            <li><i class="fas fa-angle-double-right"></i>Акт сдачи-приемки работ (услуг, продукции)</li>
-                            <li><i class="fas fa-angle-double-right"></i>Договор аренды жилого помещения</li>
-                            <li><i class="fas fa-angle-double-right"></i>Договор аренды земельного участка</li>
-                            <li><i class="fas fa-angle-double-right"></i>Договор аренды нежилого помещения</li>
-                            <li><i class="fas fa-angle-double-right"></i>Договор бытового подряда на ремонт жилого
-                                помещения</li>
-                            <li><i class="fas fa-angle-double-right"></i>Договор возмездного оказания услуг</li>
-                            <li><i class="fas fa-angle-double-right"></i>Договор займа</li>
-                            <li><i class="fas fa-angle-double-right"></i>Договор купли-продажи нежилого здания</li>
-                            <li><i class="fas fa-angle-double-right"></i>Договор на консультационно-юридическое
-                                обслуживание</li>
-                            <li><i class="fas fa-angle-double-right"></i>Договор на оказание маркетинговых услуг</li>
-                            <li><i class="fas fa-angle-double-right"></i>Трудовой договор</li>
-                            <li><i class="fas fa-angle-double-right"></i>Договор на посреднические услуги</li>
-                            <li><i class="fas fa-angle-double-right"></i>Договор о присоединении</li>
-                            <li><i class="fas fa-angle-double-right"></i>Договор о продаже акций</li>
-                            <li><i class="fas fa-angle-double-right"></i>Договор об уступке доли в уставном капитале
-                                общества с ограниченной ответственностью
-                            </li>
-                            <li><i class="fas fa-angle-double-right"></i>Договор подряда</li>
-                            <li><i class="fas fa-angle-double-right"></i>Договор поставки</li>
-                            <li><i class="fas fa-angle-double-right"></i>Договор поручения на заключение договора
-                                (контракта) с иностранной фирмой</li>
-                        </ul>
-                    </div>
-                    <div data-aos-delay="400" data-aos="fade-left" class="text">
-                        <ul>
-                            <li><i class="fas fa-angle-double-right"></i>Договор поручительства</li>
-                            <li><i class="fas fa-angle-double-right"></i>Залог</li>
-                            <li><i class="fas fa-angle-double-right"></i>Кредитный договор</li>
-                            <li><i class="fas fa-angle-double-right"></i>Соглашение об уступке права требования</li>
-                            <li><i class="fas fa-angle-double-right"></i>Соглашение об участии в аукционе</li>
-                            <li><i class="fas fa-angle-double-right"></i>Протокол Общей собрании</li>
-                            <li><i class="fas fa-angle-double-right"></i>Решение Единого Учредителя</li>
-                            <li><i class="fas fa-angle-double-right"></i>Приказ о приеме на работу</li>
-                            <li><i class="fas fa-angle-double-right"></i>Приказ директора о получение лизинг</li>
-                            <li><i class="fas fa-angle-double-right"></i>Устав OOO</li>
-                            <li><i class="fas fa-angle-double-right"></i>Устав ИП ООО</li>
-                            <li><i class="fas fa-angle-double-right"></i>Устав некоммерческого партнерства</li>
-                            <li><i class="fas fa-angle-double-right"></i>Форма (образец) расписки (в возврате займа)
-                            </li>
-                            <li><i class="fas fa-angle-double-right"></i>Форма (образец) расписки (в получении займа)
-                            </li>
-                            <li><i class="fas fa-angle-double-right"></i>Характеристика</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="laws_title">
-                    <div class="laws_h1">
-                        <h1 data-aos-delay="300" data-aos="fade-in">ЗАКОНЫ</h1>
-                    </div>
-                    <div data-aos-delay="200" data-aos="fade-up" class="laws_texts">
-                        <ul>
-                            <li><i class="fas fa-angle-double-right"></i>Перечень норм и мер, направленных на дальнейшее
-                                улучшение условий для
-                                предпринимательской деятельности, вводимых в
-                                действие с 01.08.2012 года</li>
-                            <li><i class="fas fa-angle-double-right"></i>Установленные размеры минимальный заработный
-                                платы в Республики Узбекистан (с 1973 по
-                                2018гг.)</li>
-                            <li><i class="fas fa-angle-double-right"></i>Перечень документов для нотариального
-                                оформления передачи автотранспортного средства в
-                                счет дивидендов</li>
-                            <li><i class="fas fa-angle-double-right"></i>Перечень документов для государственной
-                                регистрации негосударственных некоммерческих
-                                организаций (ННО) в Республики
-                                Узбекистан</li>
-                            <li><i class="fas fa-angle-double-right"></i>Перечень документов при удостоверении договора
-                                аренды транспортного средства</li>
-                            <li><i class="fas fa-angle-double-right"></i>Постановление Каб.Мина РУз № 266 от 12.09.2012
-                                г. О внесении изменения и дополнений в
-                                некоторые решение Правительства
-                                Республики Узбекистан (Закон Республики Узбекистан от 02.05.2012 г. № ЗРУ-328</li>
-                            <li><i class="fas fa-angle-double-right"></i>Перечень документов для получение лицензии на
-                                туристическую деятельность в Республике
-                                Узбекистан</li>
-                            <li><i class="fas fa-angle-double-right"></i>Перечень документов для сдачи в МИД Руз.
-                                (визовая поддержка в Узбекистан иностранным
-                                гражданам)</li>
-                            <li><i class="fas fa-angle-double-right"></i>Переименование улиц в Ташкенте (список)</li>
-                            <li><i class="fas fa-angle-double-right"></i>Все работе по совместительству в Узбекистан
-                            </li>
-                            <li><i class="fas fa-angle-double-right"></i>Реквизиты для оплаты государственной пошлины за
-                                регистрацию (перерегистрацию)
-                                предприятий, зарегистрированных в
-                                Мин.Юсте РУз.</li>
-                            <li><i class="fas fa-angle-double-right"></i>Закон Республики Узбекистан «Об Обществах с
-                                Ограниченной и Дополнительной
-                                Ответственностью»</li>
-                            <li><i class="fas fa-angle-double-right"></i>Закон Республики Узбекистан «О Частном
-                                Предприятии»</li>
-                            <li><i class="fas fa-angle-double-right"></i>Перечень видов деятельности, которыми могут
-                                заниматься индивидуальные предприниматели
-                            </li>
-                            <li><i class="fas fa-angle-double-right"></i>Закон Республики Узбекистан «О Семейном
-                                Предприятии»</li>
-                            <li><i class="fas fa-angle-double-right"></i>Постановление Кабинет Министров Республики
-                                Узбекистан «О мерах по упорядочению
-                                использования в наименованиях и
-                                символиках юридических лиц указаний на официальное название государства»</li>
-                            <li><i class="fas fa-angle-double-right"></i>Список стран присоединившихся к Гаагской
-                                Конвенции от 5 октября 1961 года отменяющей
-                                требования легализации (по
-                                состоянию на 1 января 2014 года)</li>
-                            <li><i class="fas fa-angle-double-right"></i>Постановления Президента РУз. «О мерах по
-                                дальнейшему совершенствованию процедур,
-                                связанных с осуществлением
-                                предпринимательской деятельности и предоставлением гос.услуг» № ПП-2164 от 15.04.2014г.
-                            </li>
-                            <li><i class="fas fa-angle-double-right"></i>Закон Республики Узбекистан «Об обращение
-                                физических и юридических лиц» от
-                                04.12.2014г.</li>
-                            <li><i class="fas fa-angle-double-right"></i>Закон Республики Узбекистан «О НОТАРИАТЕ»</li>
-                            <li><i class="fas fa-angle-double-right"></i>Список документов для оформление квартиры (для
-                                нотариуса)</li>
-                            <li><i class="fas fa-angle-double-right"></i>Перечень документов от предприятие в
-                                нотариальную контору на отчуждение имущества
-                                предприятия</li>
-                            <li><i class="fas fa-angle-double-right"></i>Перечень документов для оформление договора
-                                аренды жилого дома/квартиры (для
-                                нотариуса)</li>
-                            <li><i class="fas fa-angle-double-right"></i>Перечень видов деятельности, на осуществление
-                                которых требуется лицензии</li>
-                            <li>Закон Республики Узбекистан «О Бухгалтерском Учете»</li>
-                            <li><i class="fas fa-angle-double-right"></i>Образцы выписки с торгового реестра разных
-                                стран</li>
-                            <li><i class="fas fa-angle-double-right"></i>Форма 8 для предоставления в ГНИ</li>
-                            <li><i class="fas fa-angle-double-right"></i>Форма 4 для предоставления в ГНИ</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="langFlag">
+              <a href="#"><img src="../img_flag/ru.svg" alt="" /></a>
+              <a href="en"><img src="../img_flag/us.svg" alt="" /></a>
             </div>
+          </div>
         </div>
+      </section>
 
+      <!-- infarmatsiya -->
 
-        <!-- phone icon -->
-        <div id="Phone">
-            <div class="Phone_title">
-                <a href="tel:+998998981220">(99)
-                    898-12-20</a><br>
-                <a href="tel:+998919267776">(91) 926-77-76</a>
-            </div>
-            <div class="phoneIcon">
-                <i class="fas fa-phone"></i>
-            </div>
-        </div>
+      <div id="home">
+        <div class="container">
+          <div class="h1_title">
+            <h1 data-aos-delay="150" data-aos="fade-in">ПОЛЕЗНАЯ ИНФОРМАЦИЯ</h1>
+            <span data-aos-delay="300" data-aos="fade-in"
+              >Образцы документов</span
+            >
+          </div>
+          <div class="text_title">
+            <div data-aos-delay="300" data-aos="fade-right" class="text">
+              <ul>
+                <div class="row mb-sm-5">
+                  <div class="col-sm-5 py-sm-2">
+                    <li class="py-sm-2" style="padding-top: 0 !important">
+                      <i class="fas fa-angle-double-right"></i>Акт сдачи-приемки
+                      работ (услуг, продукции)
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Договор аренды
+                      жилого помещения
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Договор аренды
+                      земельного участка
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Договор аренды
+                      нежилого помещения
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Договор бытового
+                      подряда на ремонт помещения
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Договор
+                      возмездного оказания услуг
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Договор займа
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Договор
+                      купли-продажи нежилого здания
+                    </li>
+                  </div>
 
-        <!-- futter  -->
-        <div id="futter">
-            <div class="container futterBox">
-                <div class="futter_text">
-                    <p>
-                        © 2021 by ​BUSINESS​ CONSULTING.<br>Proudly created with
-                    </p>
-                    <span><a href="#">MIT Company</a></span>
+                  <div class="col-sm-7">
+                    <img
+                      src="./imagesHomePage/photo_2021-05-27_11-23-05 (2).jpg"
+                      alt=""
+                      class="img img-fluid img-thumbnail"
+                      style="width: 100%; height: 320px !important"
+                    />
+                  </div>
                 </div>
-                <div class="futter_menuIcon">
-                    <div class="menuFutter">
-                        <ul>
-                            <li><a href="../index.html">О КОМПАНИИ</a></li>
-                            <li><a href="../Servis_Page/servisPage.html">УСЛУГИ и ЦЕНЫ</a></li>
-                            <li><a style="color: #FF6700;" href="#">НЕОБХОДИМАЯ ИНФОРМАЦИЯ</a></li>
-                            <li><a href="../Clentis_Page/clentisPage.html">КЛИЕНТЫ</a></li>
-                            <li><a href="../Contact_Page/contactPage.html">КОНТАКТЫ</a></li>
-                        </ul>
-                    </div>
-                    <div class="iconsFutter">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-telegram-plane"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-whatsapp"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+
+                <div class="row mb-sm-4">
+                  <div class="col-sm-5">
+                    <li class="py-sm-0">
+                      <i class="fas fa-angle-double-right"></i>Договор на
+                      консультационно-юридическое
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Договор на
+                      оказание маркетинговых услуг
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Трудовой договор
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Договор на
+                      посреднические услуги
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Договор об
+                      уступке доли в уставном капитале общества с ограниченной
+                      ответственностью
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Договор подряда
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Договор поставки
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Договор поручения
+                      на заключение договора (контракта) с иностранной фирмой
+                    </li>
+                  </div>
+
+                  <div class="col-sm-7">
+                    <img
+                      src="./imagesHomePage/photo_2021-05-27_11-23-05.jpg"
+                      alt=""
+                      class="img img-fluid img-thumbnail"
+                      style="width: 100% !important; height: 320px !important"
+                    />
+                  </div>
                 </div>
+              </ul>
             </div>
+            <div data-aos-delay="400" data-aos="fade-left" class="text">
+              <ul>
+                <!-- 3 li ul -->
+                <div class="row mb-sm-5">
+                  <div class="col-sm-5">
+                    <li class="py-sm-0">
+                      <i class="fas fa-angle-double-right"></i>Договор
+                      поручительства
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Залог
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Кредитный договор
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Соглашение об
+                      уступке права требования
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Соглашение об
+                      участии в аукционе
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Протокол Общей
+                      собрании
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Решение Единого
+                      Учредителя
+                    </li>
+
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Приказ о приеме
+                      на работу
+                    </li>
+
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Приказ директора
+                      о получение лизинг
+                    </li>
+                  </div>
+                  <div class="col-sm-7">
+                    <img
+                      src="./imagesHomePage/photo_2021-05-27_11-23-06.jpg"
+                      alt=""
+                      class="img img-fluid img-thumbnail"
+                      style="width: 100% !important; height: 320px !important"
+                    />
+                  </div>
+                </div>
+
+                <div class="row mb-sm-3">
+                  <div class="col-sm-5">
+                    <li class="py-sm-3 pt-sm-0">
+                      <i class="fas fa-angle-double-right"></i>Устав OOO
+                    </li>
+                    <li class="py-sm-3">
+                      <i class="fas fa-angle-double-right"></i>Устав ИП ООО
+                    </li>
+                    <li class="py-sm-3">
+                      <i class="fas fa-angle-double-right"></i>Устав
+                      некоммерческого партнерства
+                    </li>
+                    <li class="py-sm-3">
+                      <i class="fas fa-angle-double-right"></i>Форма (образец)
+                      расписки (в возврате займа)
+                    </li>
+                    <li class="py-sm-2">
+                      <i class="fas fa-angle-double-right"></i>Форма (образец)
+                      расписки (в получении займа)
+                    </li>
+                    <li class="py-sm-3">
+                      <i class="fas fa-angle-double-right"></i>Характеристика
+                    </li>
+                  </div>
+
+                  <div class="col-sm-7">
+                    <img
+                      src="./imagesHomePage/photo_2021-05-27_11-59-50.jpg"
+                      alt=""
+                      style="width: 100% !important; height: 320px !important"
+                      class="img img-fluid img-thumbnail"
+                    />
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+          <div class="laws_title">
+            <div class="laws_h1">
+              <h1 data-aos-delay="300" data-aos="fade-in">ЗАКОНЫ</h1>
+            </div>
+            <div data-aos-delay="200" data-aos="fade-up" class="laws_texts">
+              <ul>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Перечень норм и мер,
+                  направленных на дальнейшее улучшение условий для
+                  предпринимательской деятельности, вводимых в действие с
+                  01.08.2012 года
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Установленные размеры
+                  минимальный заработный платы в Республики Узбекистан (с 1973
+                  по 2018гг.)
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Перечень документов
+                  для нотариального оформления передачи автотранспортного
+                  средства в счет дивидендов
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Перечень документов
+                  для государственной регистрации негосударственных
+                  некоммерческих организаций (ННО) в Республики Узбекистан
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Перечень документов
+                  при удостоверении договора аренды транспортного средства
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Постановление
+                  Каб.Мина РУз № 266 от 12.09.2012 г. О внесении изменения и
+                  дополнений в некоторые решение Правительства Республики
+                  Узбекистан (Закон Республики Узбекистан от 02.05.2012 г. №
+                  ЗРУ-328
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Перечень документов
+                  для получение лицензии на туристическую деятельность в
+                  Республике Узбекистан
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Перечень документов
+                  для сдачи в МИД Руз. (визовая поддержка в Узбекистан
+                  иностранным гражданам)
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Переименование улиц в
+                  Ташкенте (список)
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Все работе по
+                  совместительству в Узбекистан
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Реквизиты для оплаты
+                  государственной пошлины за регистрацию (перерегистрацию)
+                  предприятий, зарегистрированных в Мин.Юсте РУз.
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Закон Республики
+                  Узбекистан «Об Обществах с Ограниченной и Дополнительной
+                  Ответственностью»
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Закон Республики
+                  Узбекистан «О Частном Предприятии»
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Перечень видов
+                  деятельности, которыми могут заниматься индивидуальные
+                  предприниматели
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Закон Республики
+                  Узбекистан «О Семейном Предприятии»
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Постановление Кабинет
+                  Министров Республики Узбекистан «О мерах по упорядочению
+                  использования в наименованиях и символиках юридических лиц
+                  указаний на официальное название государства»
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Список стран
+                  присоединившихся к Гаагской Конвенции от 5 октября 1961 года
+                  отменяющей требования легализации (по состоянию на 1 января
+                  2014 года)
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Постановления
+                  Президента РУз. «О мерах по дальнейшему совершенствованию
+                  процедур, связанных с осуществлением предпринимательской
+                  деятельности и предоставлением гос.услуг» № ПП-2164 от
+                  15.04.2014г.
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Закон Республики
+                  Узбекистан «Об обращение физических и юридических лиц» от
+                  04.12.2014г.
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Закон Республики
+                  Узбекистан «О НОТАРИАТЕ»
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Список документов для
+                  оформление квартиры (для нотариуса)
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Перечень документов
+                  от предприятие в нотариальную контору на отчуждение имущества
+                  предприятия
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Перечень документов
+                  для оформление договора аренды жилого дома/квартиры (для
+                  нотариуса)
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Перечень видов
+                  деятельности, на осуществление которых требуется лицензии
+                </li>
+                <li>Закон Республики Узбекистан «О Бухгалтерском Учете»</li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Образцы выписки с
+                  торгового реестра разных стран
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Форма 8 для
+                  предоставления в ГНИ
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>Форма 4 для
+                  предоставления в ГНИ
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <!-- phone icon -->
+      <div id="Phone">
+        <div class="Phone_title">
+          <a href="tel:+998998981220">(99) 898-12-20</a><br />
+          <a href="tel:+998919267776">(91) 926-77-76</a>
+        </div>
+        <div class="phoneIcon">
+          <i class="fas fa-phone"></i>
+        </div>
+      </div>
+
+      <!-- futter  -->
+      <div id="futter">
+        <div class="container futterBox">
+          <div class="futter_text">
+            <p>© 2021 by ​BUSINESS​ CONSULTING.<br />Proudly created with</p>
+            <span><a href="#">MIT Company</a></span>
+          </div>
+          <div class="futter_menuIcon">
+            <div class="menuFutter">
+              <ul>
+                <li><a href="../index.html">О КОМПАНИИ</a></li>
+                <li>
+                  <a href="../Servis_Page/servisPage.html">УСЛУГИ и ЦЕНЫ</a>
+                </li>
+                <li>
+                  <a style="color: #ff6700" href="#">НЕОБХОДИМАЯ ИНФОРМАЦИЯ</a>
+                </li>
+                <li><a href="../Clentis_Page/clentisPage.html">КЛИЕНТЫ</a></li>
+                <li><a href="../Contact_Page/contactPage.html">КОНТАКТЫ</a></li>
+              </ul>
+            </div>
+            <div class="iconsFutter">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-telegram-plane"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-
-
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
 
     <script src="../javaScript/headerJS.js"></script>
-</body>
-
+  </body>
 </html>
