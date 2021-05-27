@@ -7,7 +7,7 @@
   max-height: 400px;
   object-fit: cover;
 }
-#services-page .item-2 h2 {
+#services-page h2 {
   font-family: "Exo 2", sans-serif;
   font-weight: 700;
   font-size: 24px;
@@ -17,13 +17,17 @@
 #services-page .item-2 {
   padding: 16px 0;
 }
-#services-page .item-2 li {
+#services-page li,
+#services-page p {
   font-family: "Exo 2", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
   color: #475766;
   display: block;
+}
+#services-page p {
+  color: #475766b7;
 }
 #services-page .ul-c-1 {
   border-left: 3px dashed #475766;
@@ -52,4 +56,26 @@
   position: absolute;
   top: 0;
   left: 0;
+}
+#services-page .item-4 li {
+  text-transform: capitalize;
+  margin: 12px 0;
+  position: relative;
+}
+#services-page .item-4 {
+  padding: 20px 0;
+  margin: 1rem 0;
+}
+#services-page .item-4 ul {
+  padding: 0 10px;
+}
+#services-page .item-4 li::before {
+  position: absolute;
+  content: "*";
+  left: -15px;
+  top: 3px;
+  width: 10px;
+  height: 10px;
+  font-weight: 500;
+  font-size: 24px;
 }
