@@ -1,306 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/responsevStyle.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./services.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-    crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="../style/style.css" />
-  <link rel="stylesheet" href="../style/responsevStyle.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./services.css" />
-  <title>Document</title>
-</head>
-
-<body>
-  <section id="EBS_topMenu">
-    <input type="checkbox" id="check" style="display: none" />
-    <header id="header">
-      <div class="container topMenu">
-        <ul class="listItems">
-          <li><a href="../index.html">О КОМПАНИИ</a></li>
-          <li><a style="color: #FF6700;" href="#">УСЛУГИ и ЦЕНЫ</a></li>
-          <li>
-            <a href="../Home_Page/homePage.html">НЕОБХОДИМАЯ ИНФОРМАЦИЯ</a>
-          </li>
-          <li><a href="../Clentis_Page/clentisPage.html">КЛИЕНТЫ</a></li>
-          <li><a href="../Contact_Page/contactPage.html">КОНТАКТЫ</a></li>
-        </ul>
-      </div>
-    </header>
-    <div class="menuButton">
-      <label for="check">
-        <i class="fas fa-bars"></i>
-      </label>
-    </div>
-    <section id="logo_content">
-      <div class="container logo_block">
-        <div class="logoImg">
-          <a href="../index.html"><img src="../img/Logo.svg" alt=""></a>
+  <body>
+    <section id="EBS_topMenu">
+      <input type="checkbox" id="check" style="display: none" />
+      <header id="header">
+        <div class="container topMenu">
+          <ul class="listItems">
+            <li><a href="../index.html">О КОМПАНИИ</a></li>
+            <li><a style="color: #ff6700" href="#">УСЛУГИ и ЦЕНЫ</a></li>
+            <li>
+              <a href="../Home_Page/homePage.html">НЕОБХОДИМАЯ ИНФОРМАЦИЯ</a>
+            </li>
+            <li><a href="../Clentis_Page/clentisPage.html">КЛИЕНТЫ</a></li>
+            <li><a href="../Contact_Page/contactPage.html">КОНТАКТЫ</a></li>
+          </ul>
         </div>
-        <div class="call_box">
-          <div class="call_title">
-            <p>ПОЗВОНИТЕ НАМ СЕГОДНЯ ДЛЯ КОНСУЛЬТАЦИИ</p>
-            <a href="tel:+998998981220">(+99899) 898-12-20</a><br />
-            <a href="tel:+998919267776">(+99891) 926-77-76</a>
+      </header>
+      <div class="menuButton">
+        <label for="check">
+          <i class="fas fa-bars"></i>
+        </label>
+      </div>
+      <section id="logo_content">
+        <div class="container logo_block">
+          <div class="logoImg">
+            <a href="../index.html"><img src="../img/Logo.svg" alt="" /></a>
           </div>
-          <div class="langFlag">
-            <a href="#"><img src="../img_flag/ru.svg" alt="" /></a>
-            <a href="en"><img src="../img_flag/us.svg" alt="" /></a>
+          <div class="call_box">
+            <div class="call_title">
+              <p>ПОЗВОНИТЕ НАМ СЕГОДНЯ ДЛЯ КОНСУЛЬТАЦИИ</p>
+              <a href="tel:+998998981220">(+99899) 898-12-20</a><br />
+              <a href="tel:+998919267776">(+99891) 926-77-76</a>
+            </div>
+            <div class="langFlag">
+              <a href="#"><img src="../img_flag/ru.svg" alt="" /></a>
+              <a href="en"><img src="../img_flag/us.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Home, About, clicntes Pages -->
+      <!-- Home, About, clicntes Pages -->
+
+      <div id="services-page">
+        <div class="container">
+          <div class="item-1">
+            <div class="row">
+              <div class="col-md-12 col-sm-12">
+                <img src="./imgs/img-1.jpg" class="img-fluid" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="item-2">
+            <div class="row">
+              <div class="col-md-6 col-sm-12">
+                <h2>Юридические услуги</h2>
+                <ul>
+                  <div class="ul-c-1">
+                    <li>
+                      Регистрация Общество с ограниченной ответственностью ООО
+                    </li>
+                    <li>Регистрация ЧП (Частное предприятие)</li>
+                    <li>Регистрация индивидуального предпринимателя</li>
+                    <li>Регистрация Семейного предприятия</li>
+                  </div>
+                  <div class="ul-c-1">
+                    <li>Регистрация предприятий с иностранными</li>
+                    <li>инвестициями (СП, ИП)</li>
+                    <li>Регистрация Акционерных обществ (АО)</li>
+                    <li>Регистрация Негосударственных образовательных</li>
+                  </div>
+                </ul>
+                <img src="./imgs/img-2.jpg" class="img-fluid my-1" alt="" />
+              </div>
+              <div class="col-md-6 col-sm-12 img-o">
+                <div class="ul-c-1">
+                  <li>Аккредитация Представительств</li>
+                  <li>учреждений (НОУ)</li>
+                  <li>Ликвидация предприятий</li>
+                  <li>Перерегистрация предприятий</li>
+                </div>
+                <img src="./imgs/6-img.jpg" class="img-fluid my-1" alt="" />
+                <ul>
+                  <div class="ul-c-2">
+                    <li>Изменение фирменного наименования предприятия</li>
+                    <li>Изменение состав учредителей/участников предприятия</li>
+                    <li>
+                      Изменение размер Уставного Фонда предприятия
+                      (уменьшение/увеличение)
+                    </li>
+                  </div>
+                  <div class="ul-c-2">
+                    <li>Изменение видов деятельности</li>
+                    <li>Изменение юридического/почтового адреса предприятия</li>
+                    <li>Реорганизация в форме преобразования</li>
+                  </div>
+                  <div class="ul-c-2">
+                    <li>Реорганизация в форме выделения</li>
+                    <li>Реорганизация в форме разделения</li>
+                    <li>Реорганизация в форме слияния</li>
+                    <li>Реорганизация в форме присоединения</li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="item-3"></div>
+        </div>
+      </div>
+
+      <div id="Phone">
+        <div class="Phone_title">
+          <a href="tel:+998998981220">(99) 898-12-20</a><br />
+          <a href="tel:+998919267776">(91) 926-77-76</a>
+        </div>
+        <div class="phoneIcon">
+          <i class="fas fa-phone"></i>
+        </div>
+      </div>
+
+      <div id="futter">
+        <div class="container futterBox">
+          <div class="futter_text">
+            <p>© 2021 by ​BUSINESS​ CONSULTING.<br />Proudly created with</p>
+            <span><a href="#">MIT Company</a></span>
+          </div>
+          <div class="futter_menuIcon">
+            <div class="menuFutter">
+              <ul>
+                <li><a href="../index.html">О КОМПАНИИ</a></li>
+                <li><a style="color: #ff6700" href="#">УСЛУГИ и ЦЕНЫ</a></li>
+                <li>
+                  <a href="../Home_Page/homePage.html"
+                    >НЕОБХОДИМАЯ ИНФОРМАЦИЯ</a
+                  >
+                </li>
+                <li><a href="../Clentis_Page/clentisPage.html">КЛИЕНТЫ</a></li>
+                <li><a href="../Contact_Page/contactPage.html">КОНТАКТЫ</a></li>
+              </ul>
+            </div>
+            <div class="iconsFutter">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-telegram-plane"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Home, About, clicntes Pages -->
-    <!-- Home, About, clicntes Pages -->
-
-    <div id="services-page">
-      <div class="container">
-        <div class="row">
-          <div data-aos-delay="300" data-aos="fade-right" class="col-md-7 py-3 my-3 col-sm-12"
-            style="background: #f9f9f9">
-            <h2>Юридические услуги</h2>
-            <ul>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Регистрация Общество с ограниченной
-                ответственностью ООО
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Регистрация ЧП (Частное предприятие)
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Регистрация индивидуального
-                предпринимателя
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Регистрация Семейного предприятия
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Регистрация предприятий с
-                иностранными
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>инвестициями (СП, ИП)
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Регистрация Акционерных обществ (АО)
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Регистрация Негосударственных
-                образовательных
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>учреждений (НОУ)
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Аккредитация Представительств
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Перерегистрация предприятий
-                <ul>
-                  <li>
-                    <span class="icon"><i class="fas fa-check"></i></span>Изменение фирменного наименования предприятия
-                  </li>
-                  <li>
-                    <span class="icon"><i class="fas fa-check"></i></span>Изменение состав учредителей/участников
-                    предприятия
-                  </li>
-                  <li>
-                    <span class="icon"><i class="fas fa-check"></i></span>Изменение размер Уставного Фонда предприятия
-                    (уменьшение/увеличение)
-                  </li>
-                  <li>
-                    <span class="icon"><i class="fas fa-check"></i></span>Изменение видов деятельности
-                  </li>
-                  <li>
-                    <span class="icon"><i class="fas fa-check"></i></span>Изменение юридического/почтового адреса
-                    предприятия
-                  </li>
-                  <li>
-                    <span class="icon"><i class="fas fa-check"></i></span>Реорганизация в форме преобразования
-                  </li>
-                  <li>
-                    <span class="icon"><i class="fas fa-check"></i></span>Реорганизация в форме выделения
-                  </li>
-                  <li>
-                    <span class="icon"><i class="fas fa-check"></i></span>Реорганизация в форме разделения
-                  </li>
-                  <li>
-                    <span class="icon"><i class="fas fa-check"></i></span>Реорганизация в форме слияния
-                  </li>
-                  <li>
-                    <span class="icon"><i class="fas fa-check"></i></span>Реорганизация в форме присоединения
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Ликвидация предприятий
-              </li>
-            </ul>
-          </div>
-          <div data-aos-delay="300" data-aos="fade-left" class="col-md-4 my-3 col-sm-12 ml-3 pt-3"
-            style="background: #f9f9f9">
-            <h2>Бухгалтерские услуги</h2>
-            <ul>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>
-                Бухгалтерское сопровождение
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>
-                Восстановление бухгалтерии
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>
-                Бухгалтерская отчетность
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>
-                Расчет заработный платы
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>
-                Нулевая отчетность
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>
-                Аутсорсинг бухгалтерия
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row mb-4">
-          <div data-aos-delay="400" data-aos="fade-right" class="col-md-5 col-sm-12 py-3 mr-3"
-            style="background: #f9f9f9">
-            <h2>Лицензирования</h2>
-            <ul>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Лицензия на привлечение иностранной
-                рабочий силы и разрешение
-                на осуществление трудовой деятельности иностранным гражданам в
-                Республики Узбекистан
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Лицензия на оптовую торговлю в
-                Республики Узбекистан
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Лицензия на фармацевтическую
-                деятельность оптовую в
-                Республики Узбекистан. Лицензирование аптечного склада.
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Лицензия на фармацевтическую
-                деятельность в розницу.
-                Лицензирование аптеки. Лицензия для аптеки в Ташкенте.
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Лицензия на осуществление медицинской
-                деятельности. Лицензия
-                на медицинский услуги в Республики Узбекистан.
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Государственная регистрация
-                лекарственных препаратов.
-                Получение регистрационного удостоверение.
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Устная юридическая консультация по
-                лицензированию фарм.
-                деятельности.
-              </li>
-            </ul>
-          </div>
-          <div data-aos-delay="400" data-aos="fade-left" class="col-md-4 col-sm-12 py-3 mx-1"
-            style="background: #f9f9f9">
-            <h2>Разное</h2>
-            <ul>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Разработка бизнес планов ТЭО
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Разработка и регистрация
-                логотипов/торговых знаков
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Разработка визиток, фирменных бланков
-                и конвертор с логотипом
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Разработка внутренней документации
-                предприятий
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Переводы с нотариальным заверением
-              </li>
-              <li>
-                <span class="icon"><i class="fas fa-angle-double-right"></i></span>Апостиль (понятие и образцы)
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="Phone">
-      <div class="Phone_title">
-        <a href="tel:+998998981220">(99) 898-12-20</a><br />
-        <a href="tel:+998919267776">(91) 926-77-76</a>
-      </div>
-      <div class="phoneIcon">
-        <i class="fas fa-phone"></i>
-      </div>
-    </div>
-
-    <div id="futter">
-      <div class="container futterBox">
-        <div class="futter_text">
-          <p>© 2021 by ​BUSINESS​ CONSULTING.<br />Proudly created with</p>
-          <span><a href="#">MIT Company</a></span>
-        </div>
-        <div class="futter_menuIcon">
-          <div class="menuFutter">
-            <ul>
-              <li><a href="../index.html">О КОМПАНИИ</a></li>
-              <li><a style="color: #FF6700;" href="#">УСЛУГИ и ЦЕНЫ</a></li>
-              <li>
-                <a href="../Home_Page/homePage.html">НЕОБХОДИМАЯ ИНФОРМАЦИЯ</a>
-              </li>
-              <li><a href="../Clentis_Page/clentisPage.html">КЛИЕНТЫ</a></li>
-              <li><a href="../Contact_Page/contactPage.html">КОНТАКТЫ</a></li>
-            </ul>
-          </div>
-          <div class="iconsFutter">
-            <ul>
-              <li>
-                <a href="#">
-                  <i class="fab fa-telegram-plane"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fab fa-whatsapp"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script src="../javaScript/headerJS.js"></script>
-</body>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="../javaScript/headerJS.js"></script>
+  </body>
 </html>
