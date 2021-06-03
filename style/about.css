@@ -64,13 +64,13 @@
 }
 .about-info .container {
   border: 1px solid #ccc;
-  background: #f9f9f9;
+  background: #c0c0c088;
 }
 
 .about-info h2 {
   font-weight: 700;
   font-size: 1.4rem;
-  color: rgb(5, 5, 5);
+  color: #ff6000;
   position: relative;
 }
 .about-info h2::before {
@@ -144,6 +144,7 @@
   font-size: 1.8em;
   padding: 5px 0;
   display: inline-block;
+  color: #ff6000;
 }
 #oCompan .titleCOM .COMbox h1::after {
   position: absolute;
@@ -157,8 +158,8 @@
 #oCompan .titleCOM .COMbox .COM_title {
   width: 90%;
   padding: 25px;
-  box-shadow: 0 0 0.5em 0 #ccc;
   color: black;
+  background-color: #c0c0c088;
   margin: 10px auto;
   transition: 0.45s;
   -webkit-transition: 0.45s;
