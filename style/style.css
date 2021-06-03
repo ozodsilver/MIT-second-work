@@ -8,13 +8,18 @@
   position: relative;
   width: 100%;
   min-height: 100vh;
+  background-image: url("../img/backgrounIMG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100vh;
+  background-attachment: fixed;
   overflow: hidden;
 }
 
 #header {
   position: relative;
   width: 100%;
-  background-color: #000;
+  background-color: #f06000;
   height: 65px;
 }
 ul {
@@ -44,24 +49,48 @@ a {
   justify-content: flex-end;
 }
 #header .listItems li a {
-  padding: 0 20px;
+  padding: 5px 20px;
+  position: relative;
   transition: color 0.35s;
   -webkit-transition: color 0.35s;
   -moz-transition: color 0.35s;
   -ms-transition: color 0.35s;
   -o-transition: color 0.35s;
 }
+#header .listItems li a::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background-color: #333;
+  transition: width 0.35s;
+  -webkit-transition: width 0.35s;
+  -moz-transition: width 0.35s;
+  -ms-transition: width 0.35s;
+  -o-transition: width 0.35s;
+}
 #header .listItems li {
   padding: 10px 0;
 }
 #header .listItems li a:hover {
-  color: #ff6700;
-  transition: color 0.5s;
-  -webkit-transition: color 0.5s;
-  -moz-transition: color 0.5s;
-  -ms-transition: color 0.5s;
-  -o-transition: color 0.5s;
+  color: rgba(66, 66, 66, 0.876);
+  transition: color 0.35s;
+  -webkit-transition: color 0.35s;
+  -moz-transition: color 0.35s;
+  -ms-transition: color 0.35s;
+  -o-transition: color 0.35s;
 }
+#header .listItems li a:hover::after {
+  width: 100%;
+  transition: width 0.35s;
+  -webkit-transition: width 0.35s;
+  -moz-transition: width 0.35s;
+  -ms-transition: width 0.35s;
+  -o-transition: width 0.35s;
+}
+
 #logo_content {
   background-color: #f9f9f9;
   width: 100%;
